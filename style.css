@@ -86,7 +86,8 @@ button {
   color: #C99E71;
 }
 
-.header-logo {
+.header-logo,
+.footer-img {
   width: 72px;
   height: 60px;
   margin: 0 15px 0 15px;
@@ -476,3 +477,330 @@ button {
 
 
 /* end menu */
+
+/* testimorial start */
+.testimonial-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 36px;
+}
+
+.testimonial {
+  padding: 40px;
+  background-color: #1C1814;;
+}
+
+.testimonial-data, 
+.testimonial-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.testimonial-img {
+  display: block;
+  width: 129px;
+  height: 149px;
+}
+
+.testimonial-info {
+  margin-top: 28px;
+}
+
+.testimonial-name {
+  display: block;
+  margin-bottom: 4px;
+  color: #FFF;
+  font-family: "Urbanist";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21.6px;
+}
+
+.testimonial-position {
+  opacity: 0.8;
+  color: rgba(255, 255, 255, 0.50);
+  font-family: "Urbanist";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.2px;
+  text-transform: capitalize;
+}
+
+.testimonial-text {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: "Urbanist";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-transform: capitalize;
+  opacity: 0.8;
+}
+
+.testimonial-list,
+.raiting-item {
+ align-items: flex-end;
+ font-size: 20px;
+}
+
+.testimonial-list {
+  gap: 4px;
+  color: #FAA61A;
+  padding-bottom: 4px;
+}
+
+.testimonial-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-count-text {
+  color: #C99E71;
+  font-family: "Urbanist";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.testimonial-count-progress {
+  width: 120px;
+  height: 4px;
+  appearance: none;
+}
+ 
+.testimonial-count-progress::-webkit-progress-bar {
+  background-color: #2b2926;
+}
+.testimonial-count-progress::-webkit-progress-value {
+  background-color: #C99E71;
+  border-radius: 3px;
+}
+
+.testimonial-btn-wrap {
+  gap: 16px;
+}
+
+.testimonial-btn {
+  width: 56px;
+  height: 56px;
+  cursor: default;
+  border-radius: 50%;
+}
+
+.testimonial-btn-active {
+  background-color: #C99E71;
+  color: #010102;
+  cursor: pointer;
+}
+
+.testimonial-btn-active:hover,
+.testimonial-btn-active:focus {
+  background-color: #a37b50;
+}
+/* testimorial  end */
+
+/* reservation start*/
+.reservation-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation-map {
+  width: 50%;
+  background: url(./img/reservation-map.jpg) 50% 0%/cover no-repeat;
+}
+.reservation-subtitle {
+  margin-bottom: 56px;
+}
+.reservation-title {
+  margin-top: 72px;
+}
+input {
+  display: block;
+  padding: 16px 20px;
+  border: none;
+  font: 600 18px/32px 'Urbanist', Arial, Helvetica, sans-serif;
+  color: inherit;
+  background-color: #14110E;
+  outline: none;
+  opacity: 0.8;
+}
+.reservation {
+  width: 50%;
+  /* padding: 72px 48px; */
+  background-color: #1C1814;
+}
+
+.reservation-input {
+  width: 70%;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-bottom: 24px;
+  margin-right: auto
+}
+
+.reservation-btn {
+  width: 205px;
+  margin: 56px auto;
+}
+
+/* reservation  end */
+
+/* news start */
+.news-wrap,
+.news-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+.news-img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.new-description {
+  padding: 20px 24px 30px 24px;
+  background-color: #1C1814;
+}
+
+.news-info {
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #FFF;
+  font-family: "Urbanist";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.news-author {
+  color: #FFF;
+  font-family: "Urbanist";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.news-author-dark {
+  color: #C99E71;
+  font-family: "Urbanist";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.news-text {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.news-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #C99E71;
+  font-family: "Urbanist";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.news-link:hover, .news-link:focus {
+  color:#a37b50
+}
+
+/* news end */
+
+/* footer start */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  /* row-gap: 5px; */
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  /* gap: 40px; */
+  justify-content: space-between;
+  color: #FFF;
+  font-family: "Urbanist";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; 
+}
+
+.footer-link:hover, .footer-link:focus {
+  color: #C99E71
+};
+
+.footer-list:last-child {
+  margin-right: 42px;
+}
+
+.footer-form {
+  position: relative;
+  width: 328px;
+  margin-left: 42px
+}
+
+.footer-item {
+  margin-right: 40px;
+}
+
+.footer-input {
+  width: 100%;
+  padding: 22px 130px 22px 28px;
+  border-radius: 36px;
+  background-color: #1C1814;
+}
+
+.footer-form-btn {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 400px;
+  bottom: 15px;
+  border-radius: 50%;
+  background-color: #C99E71;
+  /* /* transform: translateX(-50%); */
+} 
+
+.footer-form-btn:hover {
+  background-color: #C99E71; 
+}
+.footer-img {
+  margin-right: 36px;
+}
+.fotter-copyright {
+  margin-top: 72px;
+  background-color: #1C1814;
+  padding: 32px 0;
+  text-align: center;
+  color: #FFF;
+  font-family: "Urbanist";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.2px;
+}
+
+.footer-cont {
+  padding: 0;
+}
+/* fotter end */
